@@ -12,8 +12,8 @@
   "scripts": {
     "clean": "del ./build/*",
     "build": "yarn clean && tsc",
-    "publish": "npm version patch && yarn build && npm publish",
-    "prepare": "husky install"
+    "publish": "npm publish",
+    "prepare": "npm version patch && yarn build"
   },
   "devDependencies": {
     "del-cli": "^3.0.1",
