@@ -9,4 +9,4 @@ const color: Color = {
   blue: 10,
   green: 10,
 };
-console.log('🚀 ~ file: index.ts ~ line 8 ~ color', color);
+console.log('🚀  color', color);
