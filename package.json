@@ -1,6 +1,6 @@
 {
   "name": "@tketz/common",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": "https://github.com/SimasDei/tketz--common",
   "author": "Simas <simas@simas-dei.com>",
   "main": "./build/index.js",
