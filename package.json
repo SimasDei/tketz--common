@@ -3,11 +3,16 @@
   "version": "1.0.0",
   "repository": "https://github.com/SimasDei/tketz--common",
   "author": "Simas <simas@simas-dei.com>",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "license": "MIT",
   "scripts": {
     "clean": "del ./build/*",
-    "build": "yarn clean && tsc"
+    "build": "yarn clean && tsc",
+    "publish": "npm version patch && yarn build && npm publish"
   },
   "devDependencies": {
     "del-cli": "^3.0.1",
