@@ -1,6 +1,8 @@
 {
   "name": "@tketz/common",
   "version": "1.0.0",
+  "repository": "https://github.com/SimasDei/tketz--common",
+  "author": "Simas <simas@simas-dei.com>",
   "main": "index.js",
   "license": "MIT"
 }
