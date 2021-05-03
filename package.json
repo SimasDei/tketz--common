@@ -1,6 +1,6 @@
 {
   "name": "@tketz/common",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "repository": "https://github.com/SimasDei/tketz--common",
   "author": "Simas <simas@simas-dei.com>",
   "main": "./build/index.js",
@@ -11,7 +11,8 @@
   "license": "MIT",
   "scripts": {
     "clean": "del ./build/*",
-    "build": "yarn clean && tsc"
+    "build": "yarn clean && tsc",
+    "publish": "npm publish"
   },
   "devDependencies": {
     "del-cli": "^3.0.1",
